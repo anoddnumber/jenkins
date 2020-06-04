@@ -9,7 +9,7 @@ pipeline {
         stage('mystage') {
             steps {
                 sh 'python --help'
-          }
+            }
         }
     }
 }
