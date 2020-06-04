@@ -6,5 +6,10 @@ pipeline {
                 sh 'python --version'
             }
         }
+        stage('mystage') {
+            steps {
+                sh 'python --help'
+            }
+        }
     }
 }
